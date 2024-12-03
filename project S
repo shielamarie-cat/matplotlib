@@ -1,0 +1,22 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+
+m = 0.5
+k = 5
+c = 1
+
+omega_0 = np.sqrt(k / m)
+zeta = c / (2 * np.sqrt(k * m))
+
+r1 = -1 + 3j
+r2 = -1 - 3j
+
+x0 = 2
+v0 = 0
+
+C1 = x0
+C2 = (v0 + C1) / 3
+
+t = np.linspace(0, 10, 500)
+x
